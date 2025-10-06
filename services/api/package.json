@@ -1,0 +1,30 @@
+{
+  "name": "@rr/api",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/server.js",
+  "types": "dist/server.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.676.0",
+    "@rr/insights": "*",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.6",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.7.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.5.4"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "rift-rewind",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": ["packages/*", "services/*", "apps/*"],
+  "scripts": {
+    "postinstall": "npm -w @rr/insights run build || true",
+    "build": "npm -w @rr/insights run build && npm -w @rr/api run build && npm -w @rr/web run build",
+    "dev": "npm-run-all --parallel dev:*",
+    "dev:api": "npm -w @rr/api run dev",
+    "dev:web": "npm -w @rr/web run dev"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.5.4"
+  }
+}

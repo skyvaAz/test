@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "types": ["node"],
+    "paths": {
+      "@rr/insights": ["../../packages/insights/dist/index.d.ts"]
+    }
+  },
+  "include": ["src/**/*"]
+}

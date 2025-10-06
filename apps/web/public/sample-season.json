@@ -1,0 +1,75 @@
+{
+  "puuid": "sample-puuid",
+  "season": "2025",
+  "matches": [
+    {
+      "matchId": "MATCH1",
+      "stats": {
+        "puuid": "sample-puuid",
+        "summonerName": "PlayerOne",
+        "teamId": 100,
+        "championName": "Ahri",
+        "role": "MIDDLE",
+        "win": true,
+        "kills": 10,
+        "deaths": 2,
+        "assists": 5,
+        "goldEarned": 12000,
+        "totalDamageDealtToChampions": 24000,
+        "totalDamageTaken": 9000,
+        "visionScore": 18,
+        "cs": 210,
+        "gameCreation": 1730054400000,
+        "gameDuration": 1800,
+        "queueId": 420,
+        "season": "2025"
+      }
+    },
+    {
+      "matchId": "MATCH2",
+      "stats": {
+        "puuid": "sample-puuid",
+        "summonerName": "PlayerOne",
+        "teamId": 100,
+        "championName": "Ahri",
+        "role": "MIDDLE",
+        "win": false,
+        "kills": 4,
+        "deaths": 7,
+        "assists": 6,
+        "goldEarned": 9800,
+        "totalDamageDealtToChampions": 18000,
+        "totalDamageTaken": 12000,
+        "visionScore": 15,
+        "cs": 190,
+        "gameCreation": 1730486400000,
+        "gameDuration": 2100,
+        "queueId": 420,
+        "season": "2025"
+      }
+    },
+    {
+      "matchId": "MATCH3",
+      "stats": {
+        "puuid": "sample-puuid",
+        "summonerName": "PlayerOne",
+        "teamId": 200,
+        "championName": "Lux",
+        "role": "UTILITY",
+        "win": true,
+        "kills": 3,
+        "deaths": 3,
+        "assists": 20,
+        "goldEarned": 9000,
+        "totalDamageDealtToChampions": 12000,
+        "totalDamageTaken": 8000,
+        "visionScore": 40,
+        "cs": 30,
+        "gameCreation": 1730918400000,
+        "gameDuration": 2000,
+        "queueId": 420,
+        "season": "2025"
+      }
+    }
+  ]
+}
